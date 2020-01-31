@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What's Your Tip?</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <
+
+</head>
+<body>
+    <form id="tip-form">
+        <div id="box">
+            <img src="download.gif" alt="What's Your Tip?">
+            <p class="label"> How much was your Bill?:</p>
+            <input type="text" class="dollar" id="dollar-amount" name="bill-amount"></input>
+            <p class="label">Tip Percentage:</p>
+            <input type="text" class="percent" id="percent-tip" name="% of Tax"></input>
+            
+            <br>
+            <br>
+            <input type="button" onclick="getTip()" class="button"  value="Calculate"></input>
+        </div>
+    </form>
+    <script src="js.js"></script>
+    
+    
+</body>
+</html>

@@ -3,7 +3,7 @@ function getTip () {
     var dollar = document.getElementById("dollar-amount").value;
     var decimalpercent = percent / 100;
     var tip = decimalpercent * dollar;
-    alert("The tip is " + tip);
+    alert("The tip is " + "$" + tip);
 
 }
 
